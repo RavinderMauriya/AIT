@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color:#e0d798;
+
+body {
+    background-color: #e0d798;
 }
 
 input {
@@ -73,8 +74,9 @@ span {
     background-color: rgb(142, 218, 218);
     border-radius: 10px;
 }
-.card:hover{
-    box-shadow:5px 10px 15px gray;
+
+.card:hover {
+    box-shadow: 5px 10px 15px gray;
 }
 
 .carddet {
@@ -103,9 +105,11 @@ img {
     margin-top: 9px;
     border-radius: 10px;
 }
-.cart:active{
-    scale:1.02;
+
+.cart:active {
+    scale: 1.02;
 }
+
 .cartimage {
     width: 50px;
     height: 50px;
@@ -128,13 +132,12 @@ tr {
     border-bottom: 1px solid black;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: left;
     vertical-align: middle;
 }
-
-
 
 td {
     height: 80px;
