@@ -1,26 +1,29 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
-input{
-    padding: 10px;
-    margin: 10px;
+body{
+    background-color:#e0d798;
 }
-button{
-    border: 1px solid black inset;
+
+input {
     padding: 10px;
     margin: 10px;
 }
 
-/* react-router-dom */
-h2{
-    margin-top:100px ;
+button {
+    border: 1px solid black inset;
+    padding: 7px;
+}
+
+h2 {
+    margin-top: 20px;
     text-align: center;
     font-weight: 700;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +32,7 @@ h2{
     height: 40px;
 }
 
-a{
+a {
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
@@ -37,8 +40,106 @@ a{
     transition: 0.3s;
 }
 
-a:hover{
+a:hover {
     color: #f0f0f0;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+
+}
+
+span {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-size: 20px;
+}
+
+.main {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 250px;
+    height: 328px;
+    border: 1px solid rgb(43, 104, 226);
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(142, 218, 218);
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow:5px 10px 15px gray;
+}
+
+.carddet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carddet div {
+    padding: 5px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* image {
+    width: 100%;
+} */
+
+img {
+    width: 100%;
+}
+
+.cart {
+    width: 100%;
+    margin-top: 9px;
+    border-radius: 10px;
+}
+.cart:active{
+    scale:1.02;
+}
+.cartimage {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: white;
+}
+
+thead {
+    background-color: #4894d2;
+    color: white;
+}
+
+tr {
+    border-bottom: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+
+td {
+    height: 80px;
+}
+
+td button {
+    margin-right: 5px;
 }

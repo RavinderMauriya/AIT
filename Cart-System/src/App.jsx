@@ -27,7 +27,7 @@
 
 // export default App
 
-//React Router Dom 
+//React Router Dom & Cart System
 import React, { useState } from 'react'
 import Nav from './Components/Nav'
 import {Routes,Route} from "react-router-dom"
@@ -60,12 +60,12 @@ const App = () => {
   }
   return (
     <div>
-      <Nav/>
+      <Nav cartLength={cart.length} />
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/shop" element={<Shop addToCart={addToCart}/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/Cart" element={<Cart cart={cart} updateItemQuantity={updateItemQuantity}/>}/>
+        <Route path="/cart" element={<Cart cart={cart} updateItemQuantity={updateItemQuantity}/>}/>
       </Routes>
     </div>
   )
